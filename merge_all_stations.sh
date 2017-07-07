@@ -1,9 +1,11 @@
 #!/bin/sh
 
-echo "Start station,Start time,End station,End time" > trips-2016-all.csv
+readonly FILENAME="all-trips.csv"
 
-rm -f all-trips.csv
+echo "Start station,Start time,End station,End time" > "${FILENAME}"
 
-for csvfile in data/*.csv; do
-    sed -n '1!p' "$csvfile" >> all-trips.csv
+rm -f "${FILENAME}"
+
+for CSVFILE in data/*.csv; do
+    sed -n '1!p' "${CSVFILE}" >> "${FILENAME}"
 done
