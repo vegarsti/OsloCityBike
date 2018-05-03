@@ -1,5 +1,6 @@
 .DS_Store
-data
+data.txt
 secret.py
 __pycache__
 all_trips.csv
+.ipynb_checkpoints/
