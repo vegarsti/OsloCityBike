@@ -1,3 +1,5 @@
 # Oslo City Bike
 
-Testing the API and exploring the data
+Testing the city bike API and exploring the data.
+
+Read [this](http://vegardstikbakke.com/citybike/).
