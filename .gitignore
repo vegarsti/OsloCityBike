@@ -4,3 +4,4 @@ secret.py
 __pycache__
 all_trips.csv
 .ipynb_checkpoints/
+.idea
